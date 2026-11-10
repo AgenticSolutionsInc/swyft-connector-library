@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "name": "Bullhorn for Salesforce",
+  "description": "Work with Bullhorn Recruitment Cloud records and documents.",
+  "fields": [
+    {
+      "env": "SALESFORCE_TOKEN_URL",
+      "label": "Salesforce token URL",
+      "type": "url",
+      "required": true
+    },
+    {
+      "env": "SALESFORCE_CLIENT_ID",
+      "label": "Client ID",
+      "type": "secret",
+      "required": true
+    },
+    {
+      "env": "SALESFORCE_CLIENT_SECRET",
+      "label": "Client secret",
+      "type": "secret",
+      "required": true
+    }
+  ],
+  "verification": "salesforce-client-credentials"
+}
